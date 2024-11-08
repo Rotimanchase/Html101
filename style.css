@@ -73,14 +73,39 @@ html, body{
     background-color: #EBEAED;
     color: #1E0E62;
     border-radius: 5px;
-    padding: 23px;
-    margin: 30px 10px ;
+    padding: 20px;
+    margin: 20px 90px 20px;
+    width: 335px;
+    box-sizing: border-box;
+}
+
+.checkbox-text{
+    color: #15143966;
 }
 
 .acc{
     color: #15143966;
 }
  
+.form-lab{
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 0 18px;
+    border: 1px solid;
+    outline: none;
+}
 
 .hero{ 
     background-color: #2F1893;
@@ -100,6 +125,10 @@ html, body{
     background-color: #482BE7;
 }
 
+.btn-signup{
+    margin-top: 20px;
+}
+
 .btn-twi{
     background-color: #1DA1F2;
 }
@@ -107,7 +136,7 @@ html, body{
 .orhr {
     display: flex;
     align-items: center;
-    margin: 0 0 5px;
+    margin: 0 25px 5px;
     color: #666;
 }
 
@@ -123,13 +152,8 @@ html, body{
 }
 
 
-:placeholder-shown{
-    border-radius: 18px;
-    width: 250px;
-    padding: 8px;
-    margin: 0 0 9px 0;
-    border: solid #d2d3d3;
-}
+
+
 
 .hero-right form p span{
     color: #25DAC5;
@@ -145,6 +169,8 @@ html, body{
     color: #fff;
     cursor: pointer;
 }
+ 
+
 
 .content{
     border: 100px;
