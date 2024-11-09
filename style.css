@@ -55,7 +55,6 @@ nav ul li a{
 html, body{
     padding: 0;
     margin: 0;
-    background-color: #2F1893;
 }
 
 
@@ -65,7 +64,7 @@ html, body{
 
 .heroleft{
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .hero-right{
@@ -73,10 +72,11 @@ html, body{
     background-color: #EBEAED;
     color: #1E0E62;
     border-radius: 5px;
-    padding: 20px;
-    margin: 20px 90px 20px;
+    padding: 50px 40px;
+    margin: 15px 0 20px;
     width: 335px;
     box-sizing: border-box;
+    
 }
 
 .checkbox-text{
@@ -100,16 +100,15 @@ input[type="password"] {
     width: 100%;
     display: block;
     border-radius: 15px;
-    padding: 8px;
+    padding: 9px;
     box-sizing: border-box;
     margin: 0 0 18px;
-    border: 1px solid;
+    border: 1px solid #adaab3;
     outline: none;
 }
 
 .hero{ 
     background-color: #2F1893;
-    color: black;
     display: flex;
     justify-content: space-between;
     padding: 0 70px;
@@ -133,25 +132,23 @@ input[type="password"] {
     background-color: #1DA1F2;
 }
 
-.orhr {
+.divider {
     display: flex;
     align-items: center;
-    margin: 0 25px 5px;
+    margin: 10px;
     color: #666;
 }
 
-.orhr hr{
+.divider hr{
     flex-grow: 1;
     border: none;
     border-top: 1px solid #ccc;
 }
 
-.orhr span{
-    padding: 5px 10px;
-    margin: 0 120px 0 0;
+.divider span{
+    padding: 10px -20px;
+    margin: 0 120px 0 0px;
 }
-
-
 
 
 
@@ -164,7 +161,7 @@ input[type="password"] {
     border-radius: 20px;
     background-color: #E93A7D;
     border: 0;
-    padding: 9px;
+    padding: 12px 20px;
     margin-top: 10px;
     color: #fff;
     cursor: pointer;
@@ -182,8 +179,8 @@ input[type="password"] {
     display: flex;
     color: #15143966;
     justify-content: space-between;
-    padding: 0 80px;
-    font-size: 12px;
+    padding: 0 20px;
+    font-size: 15px;
     padding-bottom: 40px;
 }
 
@@ -191,4 +188,44 @@ input[type="password"] {
     color: #1E0E62;
     padding-top: 60px;
     text-align: center;
+}
+
+.feats{
+
+}
+
+.feats-content-left h5, .feats-body h1{
+    color: #1E0E62;
+}
+
+.feats-body{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.feats-body p, .feats-content-left p{
+    color: #15143966;
+}
+
+.feats-rl {
+    display: flex;
+}
+
+.feats-content-left{
+    padding: 0 210px 0 ;
+    margin-left: 120px;
+    
+}
+.feats-content-left p{
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.feats-content-right img{
+    width:100%;
+    margin-top: -20px;
+    margin-left: -180px;
+}
+
+.together{
+    margin-bottom: 60px;
 }
