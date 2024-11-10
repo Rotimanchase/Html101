@@ -194,7 +194,7 @@ input[type="password"] {
 
 }
 
-.feats-content-left h5, .feats-body h1{
+.feats-content-left h5, .feats-body h1, .feats2-content-left h3, .feats2-content-left h6{
     color: #1E0E62;
 }
 
@@ -202,11 +202,11 @@ input[type="password"] {
     text-align: center;
     margin-bottom: 70px;
 }
-.feats-body p, .feats-content-left p{
+.feats-body p, .feats-content-left p, .feats2-content-left p, .feats2-content-left small{
     color: #15143966;
 }
 
-.feats-rl {
+.feats-rl, .feats2-rl {
     display: flex;
 }
 
@@ -228,4 +228,35 @@ input[type="password"] {
 
 .together{
     margin-bottom: 60px;
+}
+
+.feats2-content-left{
+    margin-left: 100px;
+    margin-top: 120px;
+
+}
+.feats2-content-left small{
+    font-size: 10.5px;
+}
+
+.feats2-content-right img{
+    margin-top: 90px;
+    width: 70%;
+    margin-left: 260px;
+}
+.feats2-rl{
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.feats2-content-left p{
+    font-size: 12.5px;
+}
+
+.same-tags1{
+    margin-bottom: 50px;
+}
+.img-all{
+    margin-right: 8px;
+
 }
