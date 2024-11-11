@@ -157,7 +157,7 @@ input[type="password"] {
     
 }
 
-.btn-left {
+.btn-left, .foots-item4 button{
     border-radius: 20px;
     background-color: #E93A7D;
     border: 0;
@@ -202,7 +202,7 @@ input[type="password"] {
     color: #15143966;
 }
 
-.feats-rl, .feats2-rl, .comms-body, .price-btn{
+.feats-rl, .feats2-rl, .comms-body, .price-btn, .foots-body, .last-foots, .first-btn{
     display: flex;
 }
 
@@ -284,4 +284,59 @@ input[type="password"] {
 .right-comms{
     margin-top: 20px;
     margin-right: 30px;
+}
+
+.foots-body, .last-foots{
+    justify-content: space-between;
+}
+
+.foots{
+    background-color: #2F1893;
+    color: #fff;
+    padding-bottom: 30px;
+    margin-top: -4.5px;
+}
+
+.foots-body{
+    margin: 0 80px;
+}
+.foots-item4, .foots-item1, .foots-item2, .foots-item3{
+    margin-top: 50px;
+}
+
+.foots-item4 p{
+    text-align: center;
+}
+.first-btn button{
+    border-radius: 25px;
+    background-color: #25DAC5;
+    padding: 2px 22px;
+    color: #fff;
+    margin-top: 5px;
+    border: 0;
+}
+.first-btn input{
+    background-color: #2F1893;
+    border-radius: 25px;
+    border:1px solid #ffffff3d;
+    /* margin-top: 10px; */
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+.first-btn :placeholder-shown{
+    color: white;
+    font-size: 12px;
+}
+
+.last-foots{
+    margin-top: 70px;
+}
+
+.first-btn{
+    margin-top: 30px;
+}
+
+.foots-item2 p, .foots-item3 p, .foots-item4 p{
+    font-size: 14px;
 }
