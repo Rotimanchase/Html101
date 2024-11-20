@@ -508,7 +508,7 @@ input[type="password"] {
 .msg-div input:placeholder-shown{
     padding-bottom: 100px;
     padding-left: 20px;
-    cursor: auto;
+    cursor: auto,   ;
 }
 
 .email-div input:placeholder-shown{
@@ -564,7 +564,7 @@ input[type="password"] {
 /* learn more CSS */
 .pages{
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     gap: 60px;
     margin: 30px 0 0 70px;
 }
@@ -616,15 +616,12 @@ input[type="password"] {
 
 .pics-div{
     display: flex;
-    /* gap: 10px; */
-    /* position: relative; */
 }
 
 .pics-div img{
     width: 44%;
     margin-right: 10px;
     margin-bottom: 10px;
-    /* position: relative; */
 }
 .pics-div p{
     margin-top: 0;
@@ -666,4 +663,99 @@ input[type="password"] {
     padding: 8px 20px;
 }
 
+/* LEARN MORE FOOTER CSS */
+.ft-all, .ftr-content, .ft-right {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+}
 
+.ft-all{
+    padding: 70px;
+}
+
+.ftr-fp{
+    margin-right: 230px;
+}
+
+.ftr-content{
+    gap: 40px;
+
+}
+
+.ft-right{
+    /* gap: 0px; */
+    /* margin-left: 10px; */
+}
+
+.ftr-down img{
+    width: 40%;
+    height: 25px;
+    padding-top: 18px;
+}
+
+.ftr-down{
+    display: flex;
+    gap: 40px;
+}
+
+/* SHOWCASE2 CSS */
+
+.showc{
+    background-color: #2F1893;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.showc-body{
+    text-align: center;
+    padding-bottom: 28px;
+}
+
+.pic-all{
+    border: 0 solid ;
+    background-color: #FFFFFF;
+    /* text-align: left; */
+    margin-left: 20px;
+    border-radius: 12px;
+    width: 27%;
+    padding-bottom: 25px;
+}
+
+.pic-all img{
+    width: 100%;
+}
+
+.pic-all h4{
+    color: #1E0E62;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.pic-all p{
+    color: #15143966;
+    margin-left: 30px;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.sh-up{
+    display: flex;
+    /* position: relative; */
+    margin-left: 160px;
+    gap: 20px;
+}
+
+.pic-all button{
+    margin-left: 30px;
+    background-color: inherit;
+    border: 1.5px solid #EBEAED;
+    border-radius: 30px;
+    padding: 7px 15px;
+    color: #1E0E62;
+}
+
+.sh-down{
+    padding-top: 40px;
+}
