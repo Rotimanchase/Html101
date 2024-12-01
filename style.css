@@ -879,12 +879,20 @@ textarea:placeholder-shown{
     color: #1E0E62;
 }
 
+.new-menu{
+    display: none;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 620px) {
     .first-header, .hero, .con-p, .content, .feats-rl, .sc-bodyup, .feats2-rl, .p-items, .comms-body, .foots-body{
         flex-direction: column;
         padding: 0 20px;
+    }
+
+    .new-menu{
+        display: block;
     }
 
     nav ul li {
